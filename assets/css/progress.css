@@ -1,0 +1,183 @@
+
+#skills {
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  .about-skill {
+    background: var(--snd-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    margin-top: 50px;
+    height: 80vh;
+  }
+  #flex{
+      display: flex;
+      justify-content: space-between;
+  }
+  .outer {
+    width: 60vw;
+    height: 20px;
+    border: 2px solid var(--text-color);
+    border-radius: 8px;
+  }
+  .inner1 {
+    background-color: var(--main-color);
+    width: 95%;
+    height: 16px;
+    border-radius: 5px;
+    animation: animate 2s ;
+    animation-delay: .1s;
+  }
+  @keyframes animate{
+      0%{
+          width: 0%;
+      }
+     
+      100%{
+          width: 95%;
+      }
+  }
+  .inner2 {
+    background-color: var(--main-color);
+      width: 90%;
+      height: 16px;
+      border-radius: 5px;
+      animation: animate2 2s;
+      animation-delay: .2s;
+    }
+    @keyframes animate2{
+      0%{
+          width: 0%;
+      }
+     
+      100%{
+          width: 90%;
+      }
+  }
+  
+    .inner3 {
+    background-color: var(--main-color);
+      width: 85%;
+      height: 16px;
+      border-radius: 5px;
+      animation: animate3 2s ;
+      animation-delay: .3s;
+    }
+    @keyframes animate3{
+      0%{
+          width: 0%;
+      }
+     
+      100%{
+          width: 85%;
+      }
+  }
+  
+    .inner4 {
+    background-color: var(--main-color);
+      width: 95%;
+      height: 16px;
+      border-radius: 5px;
+      animation: animate4 2s linear;
+      animation-delay: .4s;
+    }
+    @keyframes animate4{
+      0%{
+          width: 0%;
+      }
+     
+      100%{
+          width: 95%;
+      }
+  }
+  
+    .inner5 {
+    background-color: var(--main-color);
+      width: 90%;
+      height: 16px;
+      border-radius: 5px;
+      animation: animate5 2s linear;
+      animation-delay: .5s;
+    }
+    @keyframes animate5{
+      0%{
+          width: 0%;
+      }
+     
+      100%{
+          width: 90%;
+      }
+  }
+  
+    .inner6 {
+    background-color: var(--main-color);
+      width: 80%;
+      height: 16px;
+      border-radius: 5px;
+      animation: animate6 2s linear;
+      animation-delay: .7s;
+    }
+    @keyframes animate6{
+      0%{
+          width: 0%;
+      }
+     
+      100%{
+          width: 80%;
+      }
+  }
+  
+    .inner7 {
+    background-color: var(--main-color);
+      width: 95%;
+      height: 16px;
+      border-radius: 5px;
+      animation: animate7 2s linear;
+      animation-delay: .8s;
+    }
+    @keyframes animate7{
+      0%{
+          width: 0%;
+      }
+     
+      100%{
+          width: 95%;
+      }
+  }
+  
+  
+    .inner8 {
+    background-color: var(--main-color);
+      width: 75%;
+      height: 16px;
+      border-radius: 5px;
+      animation: animate8 2s linear;
+      animation-delay: .9s;
+    }
+    @keyframes animate8{
+      0%{
+          width: 0%;
+      }
+     
+      100%{
+          width: 75%;
+      }
+  }
+  
+  #progress {
+    margin-top: 20px;
+  }
+  #progress h1{
+      color: var(--main-color);
+    }
+
+    
+@media (max-width: 450px) {
+  .outer{
+    width: 90vw;
+  }
+}
