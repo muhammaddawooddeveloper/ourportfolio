@@ -58,15 +58,15 @@ window.addEventListener("scroll", function () {
 });
 
 
-let name = prompt("Enter your name: ")
-let names = name ;
-if(names){
+// let name = prompt("Enter your name: ")
+// let names = name ;
+// if(names){
 
-  var time = new Date().getTime();
+//   var time = new Date().getTime();
 
-var uniquekey = "name_" + time
+// var uniquekey = "name_" + time
 
-localStorage.setItem(uniquekey, names);
-}
+// localStorage.setItem(uniquekey, names);
+// }
 
 // localStorage.clear()

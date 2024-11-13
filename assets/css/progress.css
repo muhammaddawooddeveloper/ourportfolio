@@ -24,10 +24,10 @@
     border: 2px solid var(--text-color);
     border-radius: 8px;
   }
-  .inner1 {
+  .inner {
     background-color: var(--main-color);
     width: 95%;
-    height: 16px;
+    height: 100%;
     border-radius: 5px;
     animation: animate 2s ;
     animation-delay: .1s;
@@ -44,7 +44,7 @@
   .inner2 {
     background-color: var(--main-color);
       width: 90%;
-      height: 16px;
+      height: 100%;
       border-radius: 5px;
       animation: animate2 2s;
       animation-delay: .2s;
@@ -62,7 +62,7 @@
     .inner3 {
     background-color: var(--main-color);
       width: 85%;
-      height: 16px;
+      height: 100%;
       border-radius: 5px;
       animation: animate3 2s ;
       animation-delay: .3s;
@@ -80,7 +80,7 @@
     .inner4 {
     background-color: var(--main-color);
       width: 95%;
-      height: 16px;
+      height: 100%;
       border-radius: 5px;
       animation: animate4 2s linear;
       animation-delay: .4s;
@@ -98,7 +98,7 @@
     .inner5 {
     background-color: var(--main-color);
       width: 90%;
-      height: 16px;
+      height: 100%;
       border-radius: 5px;
       animation: animate5 2s linear;
       animation-delay: .5s;
@@ -116,7 +116,7 @@
     .inner6 {
     background-color: var(--main-color);
       width: 80%;
-      height: 16px;
+      height: 100%;
       border-radius: 5px;
       animation: animate6 2s linear;
       animation-delay: .7s;
@@ -134,7 +134,7 @@
     .inner7 {
     background-color: var(--main-color);
       width: 95%;
-      height: 16px;
+      height: 100%;
       border-radius: 5px;
       animation: animate7 2s linear;
       animation-delay: .8s;
@@ -153,7 +153,7 @@
     .inner8 {
     background-color: var(--main-color);
       width: 75%;
-      height: 16px;
+      height: 100%;
       border-radius: 5px;
       animation: animate8 2s linear;
       animation-delay: .9s;
