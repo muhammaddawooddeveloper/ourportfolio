@@ -15,7 +15,7 @@ const typed = new Typed(".multiple-text", {
   strings: ["Frontend Developer", "Backend Developer", "Web Designer"],
   typeSpeed: 80,
   backSpeed: 80,
-  backDelay: 1200,
+  backDelay: 1000,
   loop: true,
 });
 
@@ -32,8 +32,6 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 var inner = document.querySelectorAll(".inner");
-// console.log(inner);
-
 window.addEventListener("scroll", function () {
   var scroll = window.scrollY;
   // console.log(scroll)
@@ -56,8 +54,3 @@ window.addEventListener("scroll", function () {
   }
  
 });
-
-
-
-
-// localStorage.clear()
